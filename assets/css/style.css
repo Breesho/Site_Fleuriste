@@ -1,15 +1,22 @@
 
 body {
-    height: 200vh;
     position: relative;
 }
 .bg-darkgreen {
     background-color:#78911a;
 }
-.bg-lightrkgreen {
+.bg-lightgreen {
     background-color:#b7ce63;
 }
+main {
+    min-height: 100vh;
+}
 
+.form-w {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 .bg-title-h2{
     background-color:#b75489;
@@ -60,6 +67,10 @@ body {
 .ulflex {
     width: 80%;
     justify-content: space-around;
+}
+main {
+    width:80%;
+    min-height: 100vh;
 }
 
  }
