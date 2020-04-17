@@ -1,4 +1,14 @@
 
+body {
+    height: 200vh;
+}
+
+.bg-darkgreen {
+    background-color:#78911a;
+}
+.bg-lightrkgreen {
+    background-color:#b7ce63;
+}
 
 /* ========================== Presentation ==================== */
 
@@ -22,3 +32,20 @@
 
 
 /* ========================== footer ========================== */
+
+
+
+/* ========================== Responsive ========================== */
+
+
+@media (min-width: 1024px) { 
+
+.navbarflex {
+    justify-content: center;
+    display: flex;
+}
+.ulflex {
+    width: 80%;
+}
+
+ }
