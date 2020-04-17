@@ -9,7 +9,14 @@ body {
 .bg-lightrkgreen {
     background-color:#b7ce63;
 }
-
+.bg-title-h2{
+    background-color:#b75489;
+    width: 100%;
+    height: 50px;
+    padding: 0 0 0 5rem;
+    clip-path: polygon(0 30%, 100% 0, 100% 70%, 0 100%);
+    z-index: 10;
+}
 /* ========================== Presentation ==================== */
 
 
@@ -29,7 +36,11 @@ body {
 
 
 /* ========================== contact ========================= */
-
+#test{
+    background-color: #456789;
+    width: 50%;
+    height: 100vh;
+}
 
 /* ========================== footer ========================== */
 
