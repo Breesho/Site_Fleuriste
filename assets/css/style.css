@@ -8,15 +8,10 @@ body {
 .bg-lightgreen {
     background-color:#b7ce63;
 }
-main {
-    min-height: 100vh;
+main{
+min-height: 100vh;
 }
 
-.form-w {
-    width: 90%;
-    padding: 10px;
-    border-radius: 10px;
-}
 
 .bg-title-h2{
     background-color:#b75489;
@@ -45,10 +40,10 @@ main {
 
 
 /* ========================== contact ========================= */
-#test{
-    background-color: #456789;
-    width: 50%;
-    height: 100vh;
+.form-w {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /* ========================== footer ========================== */
@@ -70,7 +65,11 @@ main {
 }
 main {
     width:80%;
-    min-height: 100vh;
 }
+footer {
+    width:80%;
+}
+
+
 
  }
