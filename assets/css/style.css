@@ -45,6 +45,21 @@ min-height: 100vh;
     padding: 10px;
     border-radius: 10px;
 }
+#form-contact input, #textarea{
+    background-color: #dae7a8;
+    border: 0;
+}
+#button-form-contact {
+    width: 20%;
+    background-color: rgb(218, 231, 168);
+    border: 0;
+
+}
+#button-form-contact:hover {
+    background-color: rgb(172, 184, 120);
+    transition: 0.2s;
+}
+
 
 /* ========================== footer ========================== */
 

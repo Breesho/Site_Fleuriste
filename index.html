@@ -63,8 +63,8 @@
 
   <!-- ========================== contact ========================= -->
   <div class="form-w m-auto bg-darkgreen">
-    <form >
-      <div class="form-group">
+    <form class="row" id="form-contact">
+      <div class="form-group col-12 col-md-6">
   
         <label for="firstname">Nom</label>
         <input type="text" id="firstname" class="form-control" placeholder="Nom">
@@ -75,10 +75,12 @@
         <input type="email" class="form-control" id="Mail" placeholder="name@example.com">
        
       </div>
-      <div class="form-group">
+      <div class="form-group col-12 col-md-6">
         <label for="textarea">Votre Question ?</label>
-        <textarea class="form-control" id="textarea" rows="3"></textarea>
+        <textarea class="form-control" id="textarea" rows="4"></textarea>
+        <button class="mt-2" id="button-form-contact" type="submit">Valider</button>
       </div>
+
     </form>
   </div>
   
@@ -86,7 +88,7 @@
   <!-- ========================== footer ========================== -->
 
 
-<footer class=" pb-5 m-auto bg-lightgreen">
+<footer class="pb-5 m-auto bg-lightgreen">
   <div class="row justify-content-center text-center p-1 m-0">
     <div class="col-3 col-sm-2 col-md-1"><a href=""><img src="assets\img\Facebook_logo.png" alt="Facebook_logo" title="Facebook_logo" width="50"></a>
     </div>
