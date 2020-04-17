@@ -3,10 +3,6 @@ body {
     height: 200vh;
     position: relative;
 }
-.nav-stickybottom {
-    position:fixed;
-    bottom: 0;
-}
 .bg-darkgreen {
     background-color:#78911a;
 }
