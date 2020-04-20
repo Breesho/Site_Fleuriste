@@ -43,7 +43,70 @@ header {
     font-size: 0.65rem;
 }
 
+/* body {
+    position: relative;
+}
+.bg-darkgreen {
+    background-color:#78911a;
+}
+.bg-lightgreen {
+    background-color:#b7ce63;
+}
+main{
+min-height: 100vh;
+}
+
+
+.bg-title-h2{
+    background-color:#b75489;
+    width: 100%;
+    height: 50px;
+    padding: 0 0 0 5rem;
+    clip-path: polygon(0 30%, 100% 0%, 100% 70%, 0 100%);
+    z-index: 10;
+} */
 /* ========================== Presentation ==================== */
+/* header {
+    width:100%;
+    background-image: url(../img/womanflowers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+} */
+/* div#logo {
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 80%;
+    height: auto;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5rem;
+}
+div#logo h1 {
+    text-align:center;
+    font-size:2rem;
+    padding: 10px;
+    color: white;
+    font-family: 'Parisienne', cursive;
+    font-weight: 300;
+}
+div#logo h2 {
+    
+ text-align: center;
+ font-size: 0.8rem;
+}
+
+div#info {
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 80%;
+    height: auto;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:2.5rem;
+    font-size: 0.8rem;
+} */
 
 
 /* ========================== navbar ========================== */
@@ -62,6 +125,54 @@ header {
 
 
 /* ========================== contact ========================= */
+.form-w {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#form-contact input, #textarea{
+    background-color: #dae7a8;
+    border: 0;
+}
+#button-form-contact {
+    width: 20%;
+    background-color: rgb(218, 231, 168);
+    border: 0;
+
+}
+#button-form-contact:hover {
+    background-color: rgb(172, 184, 120);
+    transition: 0.2s;
+}
 
 
 /* ========================== footer ========================== */
+
+
+
+/* ========================== Responsive ========================== */
+
+
+/* @media (min-width: 1024px) { 
+
+.navbarflex {
+    justify-content: center;
+    display: flex;
+}
+.ulflex {
+    width: 80%;
+    justify-content: space-around;
+}
+main {
+    width:80%;
+}
+header {
+    width: 80%;
+}
+footer {
+    width:80%;
+}
+
+
+
+ } */
