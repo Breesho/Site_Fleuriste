@@ -1,5 +1,48 @@
 
 
+header {
+    background-image: url("../img/womanflowers.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#about {
+    background-image: url("../img/woman-in-black-and-white-dress.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    max-height: 800px;
+}
+
+.bg-greenlight {
+    background-color: #B7CE63;
+   }
+.bg-darkgreen {
+    background-color:#78911a;
+}
+.font-parisienne {
+    font-family: 'Parisienne', cursive;
+}
+.font-OpenSans {
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-darkalpha {
+    background-color: #00000088;   
+}
+.mw-content {
+    min-width: min-content;
+}
+.max-w-250 {
+    max-width: 250px;
+}
+.text-shadow-1px {
+    text-shadow: 0.1rem 0.1rem #0000006c;
+}
+.text-smaller {
+    font-size: 0.65rem;
+}
+
 /* ========================== Presentation ==================== */
 
 

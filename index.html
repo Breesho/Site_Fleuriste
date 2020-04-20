@@ -4,71 +4,209 @@
 <head>
   <title>Original Flowers</title>
   <meta charset="utf-8">
-  <link rel="icon" href="assets\img\icon-flower.png" type="image/x-icon">
+  <link rel="icon" href="assets/img/icon-flower.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Parisienne&display=swap" rel="stylesheet"> 
 
 </head>
 
-<body>
+<body class="font-OpenSans">
+  <div class="container-xl p-0">
 
-  <!-- ========================== Presentation ==================== -->
+        <!-- ========================== Presentation ==================== -->
+
+    <header class="d-flex flex-column justify-content-between align-items-center">
+      <div class="text-white bg-darkalpha mw-content mt-4 mb-2 p-2 rounded-lg">
+        <h1 class="font-parisienne text-nowrap m-0 text-center text-shadow-1px">Original Flowers</h1>
+        <p class="w-75 float-right text-smaller m-0 font-italic">« Fleurir votre quotidien et apporter de la couleur à vos vies »</p>
+      </div>
+      <div class="d-flex flex-row align-self-bottom text-smaller text-white w-75 bg-darkalpha mw-content mb-5 p-2 rounded-lg">
+        <div class="w-50 border-right p-1 border-white">
+          <p class="mb-0">Votre fleuriste Original Flowers à Amiens vous propose :
+            Un vaste choix de fleurs, plantes, bouquets, compositions pour toutes les occasions : naissance, mariage, anniversaire, deuil... <br>
+            Disponible sur place ou en livraison à partir de 5€</p>
+        </div>
+        <div class="d-flex w-50 flex-column m-1"> 
+          <p>Horaires :
+            <br>Du lundi au samedi de 9h à 19h
+            <br>Le dimanche de 9h à 12h
+          </p>
+          <span class="border-bottom border-white"></span>
+          <address>Original Flowers
+            <br>33 rue des Jacobins, 80000 Amiens
+            <br>Tél. : 03.22.72.71.70
+            <br><span class="text-break"> amiens@originalflowers.com</span>
+          </address>  
+        </div>
+      </div>
+
+      <!-- ========================== ImageTopTitle ========================== -->
+      <div class="d-flex align-self-bottom">
+        <img width="100%" src="assets/img/menu_top.svg" alt="">
+      </div>
+    </header>
+
+    <!-- ========================== navbarrrrrrrrrrr ========================== -->
+
+    <nav class="navbar fixed-bottom container-xl navbar-expand-lg navbar-dark bg-darkgreen">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse navbarflex" id="navbarNav">
+        <ul class="navbar-nav ulflex">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Actualités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Livraison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nos créations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nous contacter</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ========================== a propos ======================== -->
+
+    <section id="about" class="d-flex flex-column justify-content-between">
+      <div class="d-flex flex-column justify-content-center">
+        <h2 class="bg-darkgreen h2 text-shadow-1px mb-0 p-0 text-center align-text-bottom text-white font-parisienne">
+          A propos de nous
+        </h2>
+        <img src="assets/img/menu_botom.svg" alt="" width="100%">        
+      </div>
+
+    <!-- ========================== EndImageBottomTitle ========================== -->
+       
+      <div class="bg-darkalpha text-white text-smaller rounded-lg p-2 m-2 w-50 mh-100 max-w-250">
+        <p class="m-0">Nous partageons cette passion pour les fleurs qui allie à la fois savoir-faire et esthétique depuis près de 15 ans. Nous réalisons des compositions pour toutes les occasions (mariage, anniversaire, baptême, etc.). Notre équipe est à votre service pour vous guider dans le choix de vos compostions forales. Notre objectif est de vous satisfaire mais également in fine de combler la personne à qui vous offrirez votre bouquet. C'est la raison pour laquelle nous préparons avec le plus grand soin nos compositions tout en vous donnant nos conseils avisés. Nous privilégions les fleurs de saison et nous travaillons avec des horticulteurs locaux. N'hésitez pas à venir nous rencontrer ! Notre équipe est là pour vous conseiller. </p>
+      </div>
+      
+      <div class="bg-darkalpha text-white text-smaller rounded-lg p-2 m-2 ml-auto w-75 mh-100">
+        <h3 class="text-white font-parisienne text-shadow-1px">Notre vision du métier de fleuriste</h3>
+        <p class="m-0"> « Pour moi être artisan fleuriste c'est explorer sa créativité en créant de belles compositions forales ! Je peux jouer avec les couleurs, les formes mais aussi les textures. Je m'aventure à faire le parallèle d'un artiste peintre qui réalise un tableau. Il fait vivre des émotions au travers d'oeuvres. J'essaie de partager des émotions à l'aide de mes compositions qui peuvent s'offrir de surcroît. »
+          <br>- Lucie, 27 ans, fleuriste chez Original Flowers depuis 3 ans.
+        </p>
+      </div>
+
+      <!-- ========================== ImageTopTitle ========================== -->
+      <div class="d-flex flex-row">
+        <img width="100%" src="assets/img/menu_top.svg" alt="">
+      </div>
+
+    </section>
+
+    <!-- ========================== News ========================== -->
+    <section id="news" class="d-flex flex-column justify-content-between bg-greenlight">
+      <div class="d-flex flex-column justify-content-center">
+        <h2 class="bg-darkgreen h2 text-shadow-1px mb-0 p-0 text-center align-text-bottom text-white font-parisienne">
+          Actualités
+        </h2>
+        <img src="assets/img/menu_botom.svg" alt="" width="100%">        
+      </div>
+
+    <!-- ========================== EndImageBottomTitle ========================== -->
+      <div class="d-flex flex-wrap justify-content-around mb-5">
+        <div class="d-flex justify-content-center max-w-250 h-100 mt-5 mx-5 p-2 bg-darkalpha text-white text-smaller rounded-lg">
+          <div>
+            <h3 class="text-shadow-1px font-parisienne">Fête de Pâques</h3>         
+            <img class="rounded float-right" height="200px" src="assets/img/paques0.jpg" alt="Photo Joyeuse Pâques">
+            <p class="">Et si vous souhaitiez Pâques avec des fleurs ? Nous vous proposons une large choix de compostions qui émerveillereront les petits comme les plus grands !</p>
+            
+          </div>  
+            
+        </div>
+      
+      <!-- Carroussel -->
+        <div id="carouselNews" class="carousel w-50 slide m-5" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="2000">
+              <img src="assets/img/paques1.jpg" height="200px" class="d-block mx-auto rounded" alt="image de paques">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img src="assets/img/paques2.jpg" height="200px" class="d-block mx-auto rounded" alt="image de paques">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img src="assets/img/paques3.jpg" height="200px" class="d-block mx-auto rounded" alt="image de paques">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselNews" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselNews" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+  
+       <!-- ========================== ImageTopTitle ========================== -->
+       <div class="d-flex flex-row">
+        <img width="100%" src="assets/img/menu_top.svg" alt="">
+      </div>
+
+    </section>
+    <!-- ========================== livraison ======================= -->
 
 
-  <!-- ========================== navbarrrrrrrrrrr ========================== -->
+    <!-- ========================== nos creation ==================== -->
 
 
-  <!-- ========================== a propos ======================== -->
+    <!-- ========================== contact ========================= -->
 
 
-  <!-- ========================== paques ========================== -->
+    <!-- ========================== footer ========================== -->
+    <footer class="mb-5">
+      <div class="d-flex flex-column align-items-center p-1">
+        <div class="d-flex flex-row flex-wrap">
+          <div class="m-2">
+            <a href=""><img src="assets\img\Facebook_logo.png" alt="Facebook_logo" title="Facebook_logo" width="50"></a>
+          </div>
+          <div class="m-2">
+            <a href=""><img src="assets\img\Instagram_logo.png" alt="Instagram_logo" title="Facebook_logo" width="50"></a>
+          </div>
+          <div class="m-2">
+            <a href=""><img src="assets\img\Twitter_logo.png" alt="Twitter_logo" title="Facebook_logo" width="50"></a>
+          </div>
+          <div class="m-2">
+            <a href=""><img src="assets\img\Pinterest_logo.png" alt="Pinterest_logo" title="Facebook_logo" width="50"></a>
+          </div>
+        </div>
 
 
-  <!-- ========================== livraison ======================= -->
-
-
-  <!-- ========================== nos creation ==================== -->
-
-
-  <!-- ========================== contact ========================= -->
-
-
-  <!-- ========================== footer ========================== -->
-<footer class="container">
-  <div class="row justify-content-center text-center p-1">
-    <div class="col-3 col-sm-2 col-md-1"><a href=""><img src="assets\img\Facebook_logo.png" alt="Facebook_logo" title="Facebook_logo" width="50"></a>
-    </div>
-    <div class="col-3 col-sm-2 col-md-1"><a href=""><img src="assets\img\Instagram_logo.png" alt="Instagram_logo" title="Facebook_logo" width="50"></a>
-    </div>
-    <div class="col-3 col-sm-2 col-md-1"><a href=""><img src="assets\img\Twitter_logo.png" alt="Twitter_logo" title="Facebook_logo" width="50"></a>
-    </div>
-    <div class="col-3 col-sm-2 col-md-1"><a href=""><img src="assets\img\Pinterest_logo.png" alt="Pinterest_logo" title="Facebook_logo" width="50"></a>
-    </div>
-
-
-    <div class="col-10 text-center">
-      <p class="h2">Mentions légales</p>
-      <p>Original Flowers 33 rue des Jacobins 80000 Amiens Société A Responsabilité Limitée Capital : 23000 euros Tél : 03.22.72.71.70 E-mail : amiens@flowersrangers.com Immatriculation : 351 521 000 RCS Hebergement : SoLocal Société Anonyme à conseil d'admnistration 204 Rond-point du Pont de Sèvres 92649 Boulogne-Billancourt Tél : 01.46.23.30.00. Capital : 3650000 euros.
-Copyright © 2020 Original Flowers.</p>
-    </div>
+        <div class="d-flex flex-column text-center mt-2">
+          <h3>Mentions légales</h3>
+          <p class="text-smaller">Original Flowers
+            <br>33 rue des Jacobins 80000 Amiens
+            <br>Société A Responsabilité Limitée Capital : 23000 euros
+            <br>Tél : 03.22.72.71.70
+            <br>E-mail : amiens@flowersrangers.com
+            <br>Immatriculation : 351 521 000 RCS
+            <br>Hebergement : SoLocal Société Anonyme à conseil d'admnistration 204 Rond-point du Pont de Sèvres 92649 Boulogne-Billancourt Tél : 01.46.23.30.00. Capital : 3650000 euros.
+            <br>Copyright © 2020 Original Flowers.
+          </p>
+        </div>
+      </div>
+    </footer>
   </div>
-</footer>
-
 
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
