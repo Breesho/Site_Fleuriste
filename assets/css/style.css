@@ -17,6 +17,21 @@ header {
     background-position: center;
     min-height: 100vh;
 }
+#news{
+    background-image: url("../img/bg/flower2.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+#creation{
+    background-image: url("../img/bg/flower3.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+#contact{
+    background-image: url("../img/bg/flower1.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
 .bg-greenlight {
     background-color: #B7CE63;
 }
@@ -60,23 +75,6 @@ header {
     }
 }
 
-/* ========================== navbar ========================== */
-
-
-/* ========================== a propos ======================== */
-
-
-/* ========================== paques ========================== */
-
-
-/* ========================== livraison ======================= */
-
-
-/* ========================== nos creation ==================== */
-
-
-/* ========================== contact ========================= */
-
 .form-w {
     padding: 10px;
     background-color: #CCD7A7;
@@ -95,4 +93,10 @@ header {
 .svg-footer {
     width: 40px;
     height: 40px;
+}
+
+@media (max-width: 540px) {
+    #creation, #news, #contact{
+        background-image: none;
+    }
 }
