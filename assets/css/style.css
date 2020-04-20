@@ -6,13 +6,13 @@ html {
     color: white;
 }
 header {
-    background-image: url("../img/womanflowers.jpg");
+    background-image: url("../img/bg/womanflowers_1280.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
 }
 #about {
-    background-image: url("../img/woman-in-black-and-white-dress.jpg");
+    background-image: url("../img/bg/woman-in-black-and-white-dress_1280.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -53,28 +53,25 @@ header {
 .mw-content {
     min-width: min-content;
 }
-/* .max-w-350 {
-    width: 60%;
-    max-width: 350px;
-}
-.max-h-350 {
-    max-height: 350px;
-} */
 .text-shadow-1px {
     text-shadow: 0.1rem 0.1rem #0000006c;
 }
 .text-smaller {
     font-size: 0.8rem;
 }
-.text-darkgreen {
-    color:#78911a;
+.btn-darkgreen {
+    background-color:#78911a;
+    color: white;
+}
+.btn-darkgreen:hover {
+    background-color: #B7CE63;
+    transition: 0.5s;
 }
 @media (min-width: 575px) {
     .maxw-img {
         max-width: 25%;
     }
 }
-
 .form-w {
     padding: 10px;
     background-color: #CCD7A7;
@@ -94,7 +91,6 @@ header {
     width: 40px;
     height: 40px;
 }
-
 @media (max-width: 540px) {
     #creation, #news, #contact{
         background-image: none;
