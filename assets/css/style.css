@@ -15,6 +15,9 @@ header {
 .bg-greenlight {
     background-color: #B7CE63;
    }
+.bg-whitegreen {
+    background-color: #CCD7A7;
+   }
 .bg-darkgreen {
     background-color:#78911a;
 }
@@ -38,6 +41,9 @@ header {
 }
 .text-smaller {
     font-size: 0.8rem;
+}
+.text-darkgreen {
+    color:#78911a;
 }
 
 /* body {
@@ -153,9 +159,8 @@ div#info {
 
 /* ========================== footer ========================== */
 .svg-footer {
-    width: 50px;
-    height: 50px;
-    
+    width: 40px;
+    height: 40px;
 }
 
 
