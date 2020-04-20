@@ -10,6 +10,7 @@ header {
     background-image: url("../img/woman-in-black-and-white-dress.jpg");
     background-size: cover;
     background-position: center;
+    min-height: 700px;
 }
 
 .bg-greenlight {
@@ -32,6 +33,10 @@ header {
 }
 .mw-content {
     min-width: min-content;
+}
+.max-w-350 {
+    width: 60%;
+    max-width: 350px;
 }
 .max-h-350 {
     max-height: 350px;
@@ -122,14 +127,10 @@ div#info {
 
 
 /* ========================== livraison ======================= */
-#delivery {
 
-}
 
 /* ========================== nos creation ==================== */
-#creation{
 
-}
 
 /* ========================== contact ========================= */
 
