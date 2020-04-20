@@ -6,13 +6,14 @@ header {
     background-image: url("../img/womanflowers.jpg");
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
 }
 
 #about {
     background-image: url("../img/woman-in-black-and-white-dress.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 700px;
+    min-height: 100vh;
 }
 
 .bg-greenlight {
