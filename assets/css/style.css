@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 header {
     background-image: url("../img/womanflowers.jpg");
