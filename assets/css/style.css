@@ -1,7 +1,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 ::selection {
     background-color: #B7CE63;
     color: white;
