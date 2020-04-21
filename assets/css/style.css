@@ -4,14 +4,13 @@ html {
 body {
     overflow-x: hidden;
     position: relative;
+    
 }
 .modal-backdrop {
     position: relative;
     background-color: rgba(0, 0, 0, 0);
 }
-.modal-backdrop {
-    position: relative;
-}
+
 ::selection {
     background-color: #B7CE63;
     color: white;
