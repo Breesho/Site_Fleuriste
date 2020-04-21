@@ -1,15 +1,13 @@
 html {
     scroll-behavior: smooth;
 }
-body {
-    overflow-x: hidden;
-}
-.modal-backdrop {
-    position: relative;
-}
+
 ::selection {
     background-color: #B7CE63;
     color: white;
+}
+body {
+    overflow-x: hidden;
 }
 header {
     background-image: url("../img/bg/womanflowers_1280.jpg");
